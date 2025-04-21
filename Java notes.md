@@ -1,5 +1,4 @@
-notes
-
-get:                               set:
-- Access private field             - Modify private field 
-- to read data                     - To update/change data
+| **Purpose**           | **Method**     | **Description**                       |
+|------------------------|----------------|---------------------------------------|
+| Access private field   | `get`          | Used to read or retrieve data.        |
+| Modify private field   | `set`          | Used to update or change the data.    |
