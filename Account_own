@@ -1,0 +1,47 @@
+
+public class Account_own {
+	//account number, balance, and date created, and methods for deposit and withdrawal.
+	
+	//----------Declare----------------
+	private String accountNum;
+	private double balance;
+	private int dateCreated;
+	
+	//----------Constructor----------------
+    public Account_own(String accountNum, double balance){
+    	this.accountNum = accountNum;
+    	this.balance = balance;
+    	this.dateCreated = dateCreated;    	
+    }
+    //----------Getter----------------
+    public String getAccountNum(){
+    	return accountNum;
+    }
+    public double getBalance(){
+    	return balance;
+    }
+    public int getDateCreated(){
+    	return dateCreated;
+    }
+    //----------Setter----------------
+    // Optional: Setters if needed, but usually not for balance or account number
+    
+    
+    //----------methods for deposit and withdrawal----------------
+    public void deposit(double amount){
+    	//balance = balance + amount;
+    	balance += amount;
+    	
+    }
+    public void withdrawal(double amount){			// double amount, 到时候就可以直接assign value 进去 eg. account.withdrawal(100)
+    	//balance = balance - amount
+    	if (amount > balance){
+    		System.out.println("Insufficient balance...");
+    	}
+    	else {
+    		balance -= amount;
+    	}
+    }
+     
+   
+   }
