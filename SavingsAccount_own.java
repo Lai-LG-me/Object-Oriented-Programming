@@ -1,5 +1,4 @@
-// Still got ERROR
-
+//haven't finish 
 // For the SavingsAccount class, include statements 
 // to test the methods for 
 // calculating the interest amount and adding the interest to the balance.
@@ -15,6 +14,7 @@ public class SavingsAccount_own extends Account_own {
 		public double getInterestRate(){
 			return interest_rate;
 		}
+		//----------Setter----------------
 		public void setInterestRate(double interest_rate){
 			this.interest_rate = interest_rate;
 		}
