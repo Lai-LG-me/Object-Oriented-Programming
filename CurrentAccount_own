@@ -1,0 +1,19 @@
+// haven't finish
+
+public class CurrentAccount_own extends Account_own {
+	// withdrawal = balance - amount
+	// deposit = balance + amount
+	
+	private double withdrawal;
+	private double deposit;
+	
+	public CurrentAccount_own(double withdrawal, double deposit){
+		this.withdrawal = withdrawal;
+		this.deposit = deposit;
+	}
+	
+	//----------Getter----------------
+	
+    
+    
+}
