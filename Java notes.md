@@ -6,6 +6,11 @@
 | public   | `+`          |    Everyone can access |
 | protected | `#`         |  Subclass can use, other class cannot use |
 
+### Parameterized vs No-argument constructor
+|Constructor | Purpose | Example|
+|Parameterized Constructor | Immediately create object with values | new Student("S001", "Alice", 2, 3.5);|
+|No-Argument Constructor | Create object without values (default first) | new Student();|
+
 
 ### Getter and Setter Methods
 
