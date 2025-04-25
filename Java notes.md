@@ -6,7 +6,11 @@
 | Modify private field   | `set`          | To update or change the data.    |
 
 ### ToString Methods
-##### System.out.printf (" ")
+`public String toString(){`
+
+    	`return String.format("Name: %s", "Year Joined: %d", "Basic Salary: %.2f " );`
+     
+   ` }`
 | **Variable Type**  | **Method**  | **Description**            |
 |-------------------|------------|---------------------------|
 | String           | `%s`        |                           |
