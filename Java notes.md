@@ -5,6 +5,17 @@
 | Access private field   | `get`          | To read data.        |
 | Modify private field   | `set`          | To update or change the data.    |
 
+### ToString Methods
+##### System.out.printf (" ")
+| **Variable Type**  | **Method**  | **Description**            |
+|-------------------|------------|---------------------------|
+| String           | `%s`        |                           |
+| int              | `%d`        |                           |
+| double           | `%.2f`      | for 2 decimal places      |
+| char            | `%c`        |                           |
+| boolean         | `%b`        | boolean true or false     |
+
+
 ### UML Relationships
 
 | **Type**      | **Purpose**                          | **UML**        | **Example**                                   | **UML Symbol** | **Code** |
