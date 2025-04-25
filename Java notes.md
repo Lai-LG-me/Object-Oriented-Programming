@@ -7,5 +7,5 @@
 ### UML diagram
 |**Type**   | **Purpose**               | **UML**         | **Example**                         |  **UML Symbol**  |
 |-----------|---------------------------|-----------------|---------------------------------------|------------------|
-|Aggregation| One-to-many relationship  | `Normal diamond`| An address can belongs to many student.|Name --◇ Address |
+|Aggregation| One-to-many relationship  | `Normal diamond`| An address can belongs to many student.|Student --◇ Address |
 |Composition| One-to-one realtionship   | `Bold diamond`  | A name can only be part of student    |Name --♦ Student  |
