@@ -1,3 +1,12 @@
+### Private, public  and protected
+
+| **Type**           | **UML**     | **Description**                       |
+|------------------------|----------------|---------------------------------------|
+| private   | `-`          |   Need permssion, only same class can use (subclass & other class cannot use)     |
+| public   | `+`          |    Everyone can access |
+| protected | `#`         |  Subclass can use, other class cannot use |
+
+
 ### Getter and Setter Methods
 
 | **Purpose**           | **Method**     | **Description**                       |
