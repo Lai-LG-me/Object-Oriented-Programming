@@ -17,7 +17,7 @@
 
 | **Purpose**           | **Method**     | **Description**                       |
 |------------------------|----------------|---------------------------------------|
-| Access private field   | `get`          | To read data.        |
+| Access private field   | `get`          | To read data (access data).        |
 | Modify private field   | `set`          | To update or change the data.    |
 
 ### ToString Methods
